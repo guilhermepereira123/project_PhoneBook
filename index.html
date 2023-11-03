@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefonica Presidencial</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/icon_contacts.png" alt="Icon contacts">
+            <h1>Phone Book</h1>
+        </header> 
+        <form id="form_add">
+            <input type="text" id="name_contact" required placeholder="Name">  
+            <input type="number" id="number_contact" required placeholder="Number"> 
+            <button type="submit">Save</button>
+        </form>    
+        <table cellspacing = "0">
+            <thead>
+                <tr>
+                    <th>Name Contacts</th>
+                    <th>Number Contacts</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
